@@ -24,7 +24,6 @@ Toko Makmur Jaya menjual 1.200 bungkus beras per tahun.
 **Tujuan:**
 Menentukan jumlah pesanan optimal agar total biaya persediaan minimal.
 
-📌 Untuk mencoba studi kasus ini, silakan isi input di bawah dengan:  
 - Permintaan Tahunan = `1200`  
 - Biaya Pemesanan = `200000`  
 - Biaya Penyimpanan = `5000`
