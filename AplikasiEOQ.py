@@ -8,6 +8,23 @@ st.set_page_config(page_title="Perhitungan EOQ", layout="centered")
 st.title("📦 Aplikasi Perhitungan EOQ (Economic Order Quantity)")
 st.write("Hitung jumlah pemesanan optimal berdasarkan permintaan, biaya pemesanan, dan biaya penyimpanan.")
 
+# Studi Kasus
+with st.expander("📚 Studi Kasus: Toko Sembako Makmur Jaya"):
+    st.markdown("""
+**Deskripsi:**
+Toko Makmur Jaya menjual 1.200 bungkus beras per tahun.  
+- Setiap kali memesan dari distributor, toko dikenakan biaya pengiriman dan administrasi sebesar **Rp200.000**.  
+- Biaya penyimpanan beras di gudang adalah **Rp5.000 per bungkus per tahun**.
+
+**Tujuan:**
+Menentukan jumlah pemesanan optimal agar biaya persediaan menjadi paling efisien.
+
+**Silakan masukkan nilai berikut di kolom input di bawah untuk mensimulasikan studi kasus ini:**
+- Permintaan Tahunan = `1200`
+- Biaya Pemesanan per Order = `200000`
+- Biaya Penyimpanan per Unit per Tahun = `5000`
+""")
+
 # Input
 st.subheader("📥 Input Data")
 D = st.number_input("Permintaan Tahunan (D) - unit/tahun", min_value=1, step=1, value=1200)
