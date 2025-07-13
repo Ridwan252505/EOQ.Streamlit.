@@ -9,9 +9,7 @@ st.set_page_config(page_title="Perhitungan EOQ", layout="centered")
 # Judul Aplikasi
 st.title("📦 Aplikasi Perhitungan EOQ (Economic Order Quantity)")
 st.markdown("""
-Aplikasi ini membantu menghitung **jumlah pemesanan optimal (EOQ)** untuk meminimalkan total biaya persediaan.  
-Gunakan data permintaan tahunan, biaya pemesanan, dan biaya penyimpanan untuk mendapatkan hasil yang efisien.
-""")
+Aplikasi ini membantu menghitung **jumlah pemesanan optimal (EOQ)** untuk meminimalkan total biaya persediaan.""")
 
 # Studi Kasus (bisa dibuka/tutup)
 with st.expander("📚 Studi Kasus: Toko Sembako Makmur Jaya"):
